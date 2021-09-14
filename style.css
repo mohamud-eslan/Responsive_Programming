@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: auto;
+    width: 100%;
+}
+section{
+    width: 100%;
+    height: 100%;
+    background-image: url(./jc-gellidon-OwvgTPy-OlI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav >ul{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+nav >ul >li{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+nav >h3{
+    display: none;
+}
+nav >h1{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: red;
+}
+section>div{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+div>h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: mediumslateblue;
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+    body>section{
+        background-color: red;
+    }
+  nav >ul{
+      display: none;
+  }
+  nav >h3{
+    display: block;
+}
+div>h1{
+    display: none;
+}
+
+}
+
+
+
+
+    
